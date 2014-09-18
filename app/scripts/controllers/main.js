@@ -14,4 +14,8 @@ angular.module('liveDocsApp')
       'AngularJS',
       'Karma'
     ];
+
+    $scope.say = function(something) {
+      alert(something);
+    };
   });
