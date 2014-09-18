@@ -1,14 +1,29 @@
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
+  <!-- this h1 came from task/title/@content and the id came from the id of the task-->
+  <h1 id="tdance">Dancing with a monkey</h1>
 
-<div class="row marketing">
-  <ul>
-    <li ng-repeat="thing in awesomeThings" ng-click="say(thing)">{{thing}}</li>
-  </ul>
+  <!-- task/shortdesc/@content -->
+  <p>Quick introduction to the art and science of dancing with a monkey</p>
+  <!-- <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p> -->
+
+  <!-- some hidden thing here? that shows the author? -->
+</div>
+<div class="row">
+  <div class="col-md-12">
+
+    <!-- task/taskbody/context/@content -->
+    <div class="well">
+      <p>Monkeys will not dance to any Britney</p>
+    </div>
+    
+    <ol class="steps">
+      <li class="step">Let the monkey stretch a little</li>
+      <li class="step">Start the music and let the magic happen</li>
+      <li class="step">Kiss the monkey>
+        <p class="bg-info" id="ref-mean">Monkeys are fun, but they can be mean! Be careful when handling monkeys.</p>
+        <img src="dancing.jpg" alt="">
+      </li>
+    </ol>
+    
+  </div>
 </div>
