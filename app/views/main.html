@@ -1,29 +1,30 @@
 <div class="jumbotron">
-  <!-- this h1 came from task/title/@content and the id came from the id of the task-->
-  <h1 id="tdance">Dancing with a monkey</h1>
+	<!-- the id came from the id of the task. Why is it not meaningful? Title from task title-->
+	<h1 id="taskId">Feeding a monkey</h1>
+	<!-- from task/shortdesc -->
+	<p>Quick introduction to the art and science of monkey feeding</p>
 
-  <!-- task/shortdesc/@content -->
-  <p>Quick introduction to the art and science of dancing with a monkey</p>
-  <!-- <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p> -->
-
-  <!-- some hidden thing here? that shows the author? -->
 </div>
-<div class="row">
-  <div class="col-md-12">
 
-    <!-- task/taskbody/context/@content -->
-    <div class="well">
-      <p>Monkeys will not dance to any Britney</p>
-    </div>
-    
-    <ol class="steps">
-      <li class="step">Let the monkey stretch a little</li>
-      <li class="step">Start the music and let the magic happen</li>
-      <li class="step">Kiss the monkey>
-        <p class="bg-info" id="ref-mean">Monkeys are fun, but they can be mean! Be careful when handling monkeys.</p>
-        <img src="dancing.jpg" alt="">
-      </li>
-    </ol>
-    
-  </div>
-</div>
+
+<!-- task/taskbody/context/@content -->
+<h4 class="context">Feed monkeys only when they are hungry
+</h2>
+<!-- task/taskbody/steps/@content -->
+<ol class="steps">
+	<!-- task/taskbody/step/@content -->
+	<li class="step">Let the monkey know that food is coming
+		<!-- task/taskbody/steps/step/substeps/@content -->
+		<ul class="list-group">
+			<!-- task/taskbody/steps/step/substeps/substep/@content -->
+			<li class="list-group-item">Address the monkey in perfect English. Monkeys do not speak Spanish</li>
+			<li class="list-group-item">Announce food <b>only</b> if it's coming soon</li>
+		</ul>
+
+	</li>
+	<li class="step">Serve food cold. Monkeys do not like hot food</li>
+</ol>
+<img src="eating.jpg" alt="eating">
+
+
+

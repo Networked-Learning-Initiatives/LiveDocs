@@ -16,6 +16,10 @@ body {
   color: red;
 }
 
+.list-group-item {
+  color: blue;
+}
+
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
